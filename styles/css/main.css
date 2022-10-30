@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-color: #5093f6;
+}
+
+.flex .korsatkich, .flex .orta, .flex .jimjiloq-oldi, .flex .jimjiloq {
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 4px;
+}
+
+.flex .korsatkich .chiziq1, .flex .korsatkich .chiziq, .flex .orta .chiziq1, .flex .orta .chiziq, .flex .jimjiloq-oldi .chiziq1, .flex .jimjiloq-oldi .chiziq, .flex .jimjiloq .chiziq1, .flex .jimjiloq .chiziq {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #5093f6;
+}
+
+.flex .korsatkich .tirnoq, .flex .orta .tirnoq, .flex .jimjiloq-oldi .tirnoq, .flex .jimjiloq .tirnoq {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px 50px 20px 20px;
+  background-color: #5093f6;
+  margin-left: 5px;
+}
+
+.flex {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+}
+.flex .jimjiloq {
+  width: 50px;
+  height: 130px;
+  -webkit-animation-name: jimjiloq;
+          animation-name: jimjiloq;
+  -webkit-animation-duration: 0.49s;
+          animation-duration: 0.49s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+.flex .jimjiloq .chiziq {
+  margin: 10px auto;
+}
+.flex .jimjiloq .chiziq1 {
+  margin: 5px auto;
+}
+.flex .jimjiloq .tirnoq {
+  margin-top: 55px;
+}
+.flex .jimjiloq-oldi {
+  width: 50px;
+  height: 150px;
+  -webkit-animation-name: jimjiloq-oldi;
+          animation-name: jimjiloq-oldi;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.flex .jimjiloq-oldi .chiziq {
+  margin: 10px auto;
+}
+.flex .jimjiloq-oldi .chiziq1 {
+  margin: 5px auto;
+}
+.flex .jimjiloq-oldi .tirnoq {
+  margin-top: 72px;
+}
+.flex .orta {
+  width: 50px;
+  height: 170px;
+  -webkit-animation-name: orta;
+          animation-name: orta;
+  -webkit-animation-duration: 0.51s;
+          animation-duration: 0.51s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.flex .orta .chiziq {
+  margin: 10px auto;
+}
+.flex .orta .chiziq1 {
+  margin: 5px auto;
+}
+.flex .orta .tirnoq {
+  margin-top: 90px;
+}
+.flex .korsatkich {
+  width: 50px;
+  height: 140px;
+  -webkit-animation-name: korsatkich;
+          animation-name: korsatkich;
+  -webkit-animation-duration: 0.52s;
+          animation-duration: 0.52s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.flex .korsatkich .chiziq {
+  margin: 10px auto;
+}
+.flex .korsatkich .chiziq1 {
+  margin: 5px auto;
+}
+.flex .korsatkich .tirnoq {
+  margin-top: 65px;
+}
+.flex .bosh-barmoq {
+  width: 80px;
+  height: 60px;
+  background-color: white;
+  margin-left: 5px;
+  border-radius: 0px 30px 80px 0px;
+  position: relative;
+  -webkit-animation-name: bosh-barmoq;
+          animation-name: bosh-barmoq;
+  -webkit-animation-duration: 0.53s;
+          animation-duration: 0.53s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes jimjiloq {
+  to {
+    transform: rotateX(0deg) translateY(0px);
+  }
+  from {
+    transform: rotateX(40deg) translateY(-40px);
+  }
+}
+
+@keyframes jimjiloq {
+  to {
+    transform: rotateX(0deg) translateY(0px);
+  }
+  from {
+    transform: rotateX(40deg) translateY(-40px);
+  }
+}
+@-webkit-keyframes jimjiloq-oldi {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes jimjiloq-oldi {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@-webkit-keyframes orta {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes orta {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@-webkit-keyframes korsatkich {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes korsatkich {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@-webkit-keyframes bosh-barmoq {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-10px) rotateX(40deg);
+  }
+}
+@keyframes bosh-barmoq {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-10px) rotateX(40deg);
+  }
+}/*# sourceMappingURL=main.css.map */
